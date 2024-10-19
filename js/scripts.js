@@ -20,7 +20,11 @@ function longword(wordA, wordB) {
   if (wordA.length > wordB.length) {
     return;
     `${wordA} es más larga que ${wordB}`;
+  } else if (wordB.length > wordA.length) {
+    return;
+    `${wordB} es más larga que ${wordA}`;
   }
+  return `${wordA} es igual de larga que ${wordB}`;
 }
 
 const longwordresult = longword("habitat", "casa");
@@ -40,20 +44,20 @@ console.log(longwordresult);
 
 /* 10.Crea una función que reciba 3 palabras y calcule cuántos caracteres tienen en total. Por ejemplo, si recibe "Hola", "Mundo" y "Javascript", deberá imprimir 17.*/
 
-/*Crea una función que reciba una frase y devuelva la frase con el formato de título, es decir, que cada palabra comience con mayúscula. Por ejemplo, "hola mundo" se convertiría en "Hola Mundo".*/
+/*11.Crea una función que reciba una frase y devuelva la frase con el formato de título, es decir, que cada palabra comience con mayúscula. Por ejemplo, "hola mundo" se convertiría en "Hola Mundo".*/
 
-/*Crea una función que reciba un nombre y un apellido y devuelva las iniciales en mayúsculas. Por ejemplo, si recibe "Carlos Pérez", deberá devolver "C.P.".*/
+/*12. Crea una función que reciba un nombre y un apellido y devuelva las iniciales en mayúsculas. Por ejemplo, si recibe "Carlos Pérez", deberá devolver "C.P.".*/
 
-/*Crea una función que reciba 3 palabras y calcule el promedio de la longitud de esas palabras. Por ejemplo, si recibe "hola", "adiós" y "mundo", el promedio sería 4.67.*/
+/*13.Crea una función que reciba 3 palabras y calcule el promedio de la longitud de esas palabras. Por ejemplo, si recibe "hola", "adiós" y "mundo", el promedio sería 4.67.*/
 
-/*Crea una función que reciba un número de teléfono de 10 dígitos (como "1234567890") y lo formatee de la siguiente manera: "(123) 456-7890".*/
+/*14.Crea una función que reciba un número de teléfono de 10 dígitos (como "1234567890") y lo formatee de la siguiente manera: "(123) 456-7890".*/
 
-/*Crea una función que reciba una palabra de 4 letras y la devuelva en orden inverso, duplicando cada letra. Por ejemplo, si recibe "hola", devolvería "aalloohh".*/
+/*15.Crea una función que reciba una palabra de 4 letras y la devuelva en orden inverso, duplicando cada letra. Por ejemplo, si recibe "hola", devolvería "aalloohh".*/
 
-/*Crea una función que reciba un número de dos dígitos y devuelva true si ambos dígitos son pares. Por ejemplo, si recibe 24, devolvería true, pero si recibe 23, devolvería false.*/
+/*16.Crea una función que reciba un número de dos dígitos y devuelva true si ambos dígitos son pares. Por ejemplo, si recibe 24, devolvería true, pero si recibe 23, devolvería false.*/
 
-/*Crea una función que reciba dos palabras de 4 letras y verifique si contienen las mismas letras en diferente orden, por ejemplo "amor" y "mora"*/
+/*17.Crea una función que reciba dos palabras de 4 letras y verifique si contienen las mismas letras en diferente orden, por ejemplo "amor" y "mora"*/
 
-/*Crea una función que reciba un string y un número n, y devuelva los primeros n caracteres del string (puedes usar el método slice).*/
+/*18.Crea una función que reciba un string y un número n, y devuelva los primeros n caracteres del string (puedes usar el método slice).*/
 
-/*Crea una función que reciba una frase y una palabra, y te diga si la palabra está o no en la frase*/
+/*19.Crea una función que reciba una frase y una palabra, y te diga si la palabra está o no en la frase*/

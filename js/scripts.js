@@ -409,12 +409,18 @@ const trueWord = (wordA, wordB) => {
 const resultTrueWord = trueWord("amor", "mora");
 console.log(resultTrueWord);
 
-/*18.Crea una función que reciba un string y un número n, y devuelva los primeros n caracteres del string (puedes usar el método slice).*/
+/*18.Crea una función que reciba un string y un número n, y devuelva los primeros n caracteres del string (puedes usar el método slice).
 
 function stringN(word, number) {
-  return word.slice();
+  return word.slice(-4);
 }
+const resultstringN = stringN("hola buenas", 4);
+console.log(resultstringN);*/
 
+const stringN = (word, number) => word.slice(-4);
+
+const resultstringN = stringN("hola buenas", 4);
+console.log(resultstringN);
 /*19.Crea una función que reciba una frase y una palabra, y te diga si la palabra está o no en la frase
 
 function iswordin(word, phrase) {
